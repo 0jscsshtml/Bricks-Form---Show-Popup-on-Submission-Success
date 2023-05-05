@@ -1,5 +1,6 @@
 <script>
 // Form Success Show Popup
+document.addEventListener('DOMContentLoaded',function(){	
 	if ( document.body.classList.contains('page-id-253') ) { // change to your page ID
 		const targetEle = document.querySelector(".wl-login-form"); // change to your form classname
 		const targetPopup = document.querySelector(".brxe-popup-424"); // change to your popup classname
@@ -16,4 +17,5 @@
 		});
 		observer.observe(targetEle, { subtree: false, childList: true });
 	}
+});	
 </script>
