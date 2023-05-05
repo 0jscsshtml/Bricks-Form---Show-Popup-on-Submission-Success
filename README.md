@@ -10,9 +10,7 @@ This script will trigger Bricks Popup on form success submission.
   - change the form classname to your form classname.
   - change popup Id to the one you want to trigger.
 
-#4 In case you don't want to display success message on form, just use css to display:none on form > div.success 
-
-#5 Test Environment
+#4 Test Environment
  - Wordpress v6.2
  - Bricks v1.7.3
  - Localwp v6.7.1+6369
